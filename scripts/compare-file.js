@@ -6,5 +6,5 @@ const sourceFile = fs.readFileSync(process.argv[2], 'utf8');
 const targetFile = fs.readFileSync(process.argv[3], 'utf8');
 
 if (sourceFile !== targetFile) {
-    throw new Error("Files do not match");
+    throw new Error("Files will not match");
 }
